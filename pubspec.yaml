@@ -1,0 +1,31 @@
+name: positioning_core
+description: >
+  Offline-first positioning engine for hybrid indoor/outdoor pedestrian navigation:
+  GPS smoothing (optional outdoor graph snapping), indoor PDR (step detection + step-length estimation),
+  barometer-based floor change detection, corridor snapping, and deterministic trace recording + replay.
+  Pure Dart core designed for reproducible experiments (e.g., Campus navigation).
+version: 0.0.1
+publish_to: "none"
+homepage: https://positioning-package-twr.netlify.app
+repository: https://github.com/mahdi-nazzal/positioning_core
+issue_tracker: https://github.com/mahdi-nazzal/positioning_core/issues
+documentation: https://positioning-package-twr.netlify.app/#getting-started
+
+topics:
+  - navigation
+  - positioning
+  - pdr
+  - indoor-navigation
+  - dead-reckoning
+  - sensor-fusion
+  - barometer
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  meta: ^1.11.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0

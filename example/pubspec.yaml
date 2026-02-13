@@ -1,0 +1,39 @@
+name: positioning_core_example
+description: "Example app to test positioning_core package (live + record + replay)."
+publish_to: "none"
+version: 0.0.1+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  flutter_file_dialog: ^3.0.3
+  share_plus: ^10.1.4
+
+  geolocator: ^12.0.0
+  sensors_plus: ^7.0.0
+  path_provider: ^2.1.4
+
+  positioning_core:
+    path: ../
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.2
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  remove_alpha_ios: true
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/traces/
+    - assets/icon/app_icon.png
